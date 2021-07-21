@@ -1,0 +1,27 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em;
+    border-bottom: 1px solid #e3e3e3;
+
+    &__nav {
+        display: flex;
+        list-style: none;
+    }
+
+    &__nav-item {
+        margin: 0 20px 0 0;
+    }
+
+    &__nav-link {
+        font-size: .8em;
+        text-transform: uppercase;
+        text-decoration: none;
+        color: #000;
+    }
+
+    &__logo-img {
+        max-width: 80px;
+    }
+}
